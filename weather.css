@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: linear-gradient(to right, #0ABAB5,#56DFCF,#ADEED9);
+}
+
+.search-box{
+    display: flex;
+    justify-content: center;
+     align-items: center;
+    margin-top:50px;
+    gap: 15px;
+
+}
+
+.search-box input {
+    height: 2.2rem;
+    width: 25rem;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+
+}
+
+.button i {
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor:grab;
+}
+button :hover {
+
+    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.26);;
+    
+}
+
+.search-box i:active {
+            transform: scale(0.2);
+            /* Scaling button to 0.98 to its original size */
+            box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+            /* Lowering the shadow */
+        }
+
+.forcast {
+     display: grid;
+     justify-content: center;
+     align-self: center;
+     margin-top: 90px;
+    
+} 
+
+.forcast p {
+    padding: 0px 62px 0px 62px;
+    font-size: 2.2rem;
+    color: white;
+
+}
+
+.forcast2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 150px;
+
+
+}
+
+
+.humidity img {
+
+    margin-bottom: 2rem;
+     
+}
+
+.humidity p {
+    font-size: 1.5rem;
+}
+
+.wind-speed img {
+    margin-bottom: 1.3rem;
+}
+
+
+.wind-speed p {
+    font-size: 1.5rem;
+}
